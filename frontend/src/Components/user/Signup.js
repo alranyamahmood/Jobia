@@ -23,43 +23,43 @@ export default function Signup(props) {
 
         <Container>
             <Form.Group>
-                <Form.Label>firstName</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}} >firstName</Form.Label>
                 <Form.Control name="firstName" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>lastName</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>lastName</Form.Label>
                 <Form.Control name="lastName" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             
             <Form.Group>
-                <Form.Label>phone</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}} >phone</Form.Label>
                 <Form.Control name="phone" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>email</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>email</Form.Label>
                 <Form.Control name="email" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>password</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>password</Form.Label>
                 <Form.Control name="password" type="password" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Title</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>Title</Form.Label>
                 <Form.Control name="title" type="title" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Education</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>Education</Form.Label>
                 <Form.Control name="education" type="education" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Skills</Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>Skills</Form.Label>
                 <Form.Control name="skills" type="skills" onChange={changeHandler}></Form.Control>
             </Form.Group>
 

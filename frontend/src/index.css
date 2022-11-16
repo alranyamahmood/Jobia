@@ -11,30 +11,60 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-Label {
+div {
+  margin-top: 5px;
 
-border-radius: 10px;
+
+  font-size: 30px;
+  border-radius: 20px;
+
 
 }
+
+.input.from-control {
+}
+
+
+
+label.from-label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+input {
+
+  margin-top: 80px;
+
+ 
+
+}
+
+
 button {
+  margin-top: 5px;
 
-position: absolute;
-width: 247px;
-height: 41px;
-left: 597px;
-top: 451px;
+  position: absolute;
+  width: 319px;
+  height: 54px;
+  left: 502px;
+  top: 600px;
+  font-size: 30px;
+  border-radius: 10px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 30px;
-text-align: center;
-color: #706e6e;
 }
 
 
 
+li {
+  margin: 20px;
+  display: inline;
+    width: 130px;
+    color: white;
+    border-radius: 25px;
+   font-style: italic;
+   width: 319px;
+  height: 54px
+}
 
 
 code {

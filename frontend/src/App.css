@@ -41,3 +41,11 @@
 Form.Label {
  background-color: aqua;
 }
+.form-control {
+  height: 40px;
+width: 419px;
+left: 508px;
+top: 399px;
+border-radius: 10px;
+
+}

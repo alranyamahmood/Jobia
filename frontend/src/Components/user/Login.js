@@ -23,12 +23,12 @@ function Login(props) {
 
         <Container>
             <Form.Group >
-                <Form.Label>email: </Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>email: </Form.Label>
                 <Form.Control name='email' type='email' onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
-                <Form.Label>Password: </Form.Label>
+                <Form.Label style={{ "font-size": "20px"}}>Password: </Form.Label>
                 <Form.Control name='password' type='password' onChange={changeHandler}></Form.Control>
             </Form.Group>
 
